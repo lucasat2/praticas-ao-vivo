@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+
+
+.container-principal {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.container-texto {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container-preco {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+img {
+  object-fit: cover;
+  width: 400px;
+  height: 100%;
+}
+
+
+/* textos */
+
+#perfume {
+  color: hsl(228, 12%, 48%);
+}
+
+#titulo {
+  color: hsl(212, 21%, 14%);
+  font-size: 30px;
+  width: 80%;
+}
+
+#descricao {
+  color: hsl(228, 12%, 48%);
+  max-width: 80%;
+}
+
+#preco {
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Fraunces;
+}
+
+#preco-antigo {
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+
+}
+
+#botao {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+#botao:hover {
+  background-color: #1A4031;
+}
+
+#carrinho { 
+  width: 15px;
+}
